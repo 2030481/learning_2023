@@ -1,0 +1,3 @@
+A Calculator is an electronic device that is used to perform calculations ranging from basic arithmetic operations to complex mathematical calculations.
+It is a portable device that can be used to perform arithmetic operations like addition, subtraction, multiplication, division, etc.
+Here,We can make a simple calculator using C language by using the Switch Case Statement.
