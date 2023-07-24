@@ -1,0 +1,5 @@
+Array based Challenges
+• Create an Arrav of N elements
+• Write a function to find Second Minimum in a Array
+• Write a function to find Second Maximum in a Array
+• Write a fucntion to Sort the Array in the given order.
