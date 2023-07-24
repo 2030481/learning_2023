@@ -1,7 +1,0 @@
-Rules to follow while writing code
-• Write code as a function that can be called from main
-• Pass all the arguments/inputs needed for the function to work with
-• Return the result from the function to main
-• Avoid using printf and scanf inside the function but can be used in main
-• Use meaningful names for variables and functions
-• Consider error conditions and handle in the code accordingly.
