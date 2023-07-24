@@ -1,0 +1,53 @@
+# Activities to use the exisitng code and modify as per the given problem statement
+
+## Rules to follow while writing code
+* Write code as a function that can be called from main
+* Pass all the arguments/inputs needed for the function to work with
+* Return the result from the function to main
+* Avoid using printf and scanf inside the function but can be used in main
+* Use meaningful names for variables and functions
+* Consider error conditions and handle in the code accordingly
+
+### Array based Challenges
+* Create an Array of N elements
+	* Write a function to find Second Minimum in a Array
+	* Write a function to find Second Maximum in a Array
+	* Write a fucntion to Sort the Array in the given order
+
+### If you have completed above, you can give a try to the below questions
+> Complex Number:
+	* Create a structure for complex number
+	* Write a Function to print an Array of complex number
+	
+	* Create an Array of Complex numbers of size N
+		* Find first complex number whose real part is eqaul to imaginary part in the array
+		* Find the count of complex numbers whose real part is equal to imaginary part in the array
+
+	* Assume that real part of the complex number is X co-ordinate and imaginary part is Y co-ordinate.
+		* Find the Complex number which is closest to Origin
+		* Find the Complex number which is farthest from Origin
+		* Find complex numbers which are in given Quadrant
+		
+	* Write a fucntion to Sort the Complex number Array in the given order
+
+***Mandatory to be solved from here to ****************
+### Stack based Challenges
+* Create an Array that can hold complex numbers
+	* Write function to push a complex number to stack
+	* Write function to pop a complex number from stack
+
+### Linked list based Challenges
+* Create a linked list for Complex numbers
+	* Write function to add complex number to a linked list
+		* At beginning
+		* At End
+		* In between
+	* Write function to print all the elements in a linked list
+***Mandatory to be solved till here****************
+
+* Rewrite all the above algorithms for the given structure
+	struct Box{
+		int length;
+		int height;
+		int breadth;
+	};
