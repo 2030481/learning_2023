@@ -13,7 +13,8 @@ Install GCC (GNU Compiler Collection) to compile and run C programs.
 Hello World:
 Create a basic "Hello, World!" program to ensure your setup is working.
 
-C Program Code
+*C Program Code*
+
 #include <stdio.h>
 
 int main() {
@@ -30,7 +31,8 @@ Learn about basic data types like int, float, char, double.
 Declare variables and assign values to them.
 
 
-C Program Code
+*C Program Code*
+
 int age = 25;
 float pi = 3.14159;
 char grade = 'A';
@@ -41,7 +43,8 @@ char grade = 'A';
 Print text and variables using printf().
 
 
-C Program Code
+*C Program Code*
+
 int num = 42;
 printf("The answer is: %d\n", num);
 
@@ -49,7 +52,8 @@ printf("The answer is: %d\n", num);
 Read input from the user using scanf().
 
 
-C Program Code
+*C Program Code*
+
 int userInput;
 printf("Enter a number: ");
 scanf("%d", &userInput);
@@ -61,7 +65,8 @@ printf("You entered: %d\n", userInput);
 Make decisions based on conditions.
 
 
-C Program Code
+*C Program Code*
+
 int x = 10;
 if (x > 5) {
     printf("x is greater than 5\n");
@@ -73,7 +78,8 @@ if (x > 5) {
 Create loops to execute code repeatedly.
 
 
-C Program Code
+*C Program Code*
+
 for (int i = 1; i <= 5; i++) {
     printf("%d ", i);
 }
@@ -92,7 +98,8 @@ while (n > 0) {
 *Define and call functions to organize your code.
 
 
-C Program Code
+*C Program Code*
+
 int add(int a, int b) {
     return a + b;
 }
@@ -107,7 +114,8 @@ Understand variable scope and lifetime (local and global variables).
 Understand and work with arrays, which are collections of elements of the same data type.
 
 
-C Program Code
+*C Program Code*
+
 int numbers[5] = {1, 2, 3, 4, 5};
 printf("Third element: %d\n", numbers[2]); // Output: 3
 
@@ -115,7 +123,8 @@ printf("Third element: %d\n", numbers[2]); // Output: 3
 Learn about pointers, which store memory addresses, and their use.
 
 
-C Program Code
+*C Program Code*
+
 int x = 10;
 int *ptr = &x; // Pointer to integer
 printf("Value of x: %d\n", *ptr); // Output: 10
@@ -126,7 +135,8 @@ printf("Value of x: %d\n", *ptr); // Output: 10
 #### Dynamic Memory Allocation (malloc, free):
 Allocate memory dynamically for data structures like arrays.
 
-C Program Code
+*C Program Code*
+
 int *dynamicArray = (int *)malloc(5 * sizeof(int));
 // Use dynamicArray
 free(dynamicArray);
@@ -136,7 +146,8 @@ free(dynamicArray);
 #### Structures:
 Define and use structures to group related variables together.
 
-C Program Code
+*C Program Code*
+
 struct Person {
     char name[50];
     int age;
@@ -151,7 +162,8 @@ strcpy(person1.name, "John");
 #### File I/O:
 Learn how to work with files using FILE pointers and functions like fopen, fclose, fprintf, fscanf.
 
-C Program Code
+*C Program Code*
+
 FILE *file = fopen("data.txt", "w");
 fprintf(file, "Hello, File Handling!");
 fclose(file);
