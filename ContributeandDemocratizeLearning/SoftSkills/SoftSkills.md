@@ -3,7 +3,7 @@
 Here I collect all important soft skills for everyone who are engaged in the IT-sphere. 
 Feel free to **star** and **fork**.
  
-Any comments, suggestions? [Let me know!](https://github.com/valerii-chirkov/soft-skills/issues)
+Any comments, suggestions? [Let me know!](https://github.com/2030481/learning_2023/blob/main/ContributeandDemocratizeLearning/SoftSkills/SoftSkills.md)
 
 ## Contents
 
