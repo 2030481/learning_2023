@@ -1,15 +1,15 @@
-#Introduction to Programming
-##Introduction to Programming
+# Introduction to Programming
+## Introduction to Programming
 Understand the fundamentals of programming, which apply to virtually all languages.
 
-##Setting Up Your Environment
-*Install a Text Editor or IDE:*
+## Setting Up Your Environment
+* Install a Text Editor or IDE:*
 Choose a code editor like Visual Studio Code, Sublime Text, or an integrated development environment (IDE) like Code::Blocks or Dev-C++.
 
-*Install a Compiler:
+* Install a Compiler:
 Install GCC (GNU Compiler Collection) to compile and run C programs.
 
-##Your First C Program
+## Your First C Program
 Hello World:
 Create a basic "Hello, World!" program to ensure your setup is working.
 
@@ -22,11 +22,11 @@ int main() {
 }
 
 
-##Variables and Data Types
-####Data Types:
+## Variables and Data Types
+#### Data Types:
 Learn about basic data types like int, float, char, double.
 
-####Declaring Variables:
+#### Declaring Variables:
 Declare variables and assign values to them.
 
 
@@ -36,8 +36,8 @@ float pi = 3.14159;
 char grade = 'A';
 
 
- ##Input and Output
-####Output with printf():
+ ## Input and Output
+#### Output with printf():
 Print text and variables using printf().
 
 
@@ -45,7 +45,7 @@ C Program Code
 int num = 42;
 printf("The answer is: %d\n", num);
 
-####Input with scanf():
+#### Input with scanf():
 Read input from the user using scanf().
 
 
@@ -56,8 +56,8 @@ scanf("%d", &userInput);
 printf("You entered: %d\n", userInput);
 
 
-##Control Structures
-####Conditional Statements (if, else):
+## Control Structures
+#### Conditional Statements (if, else):
 Make decisions based on conditions.
 
 
@@ -69,7 +69,7 @@ if (x > 5) {
     printf("x is not greater than 5\n");
 }
 
-####Loops (for, while):
+#### Loops (for, while):
 Create loops to execute code repeatedly.
 
 
@@ -87,8 +87,8 @@ while (n > 0) {
 // Output: 5 4 3 2 1
  
 
-##Functions and Modular Programming
-####Functions:
+## Functions and Modular Programming
+#### Functions:
 *Define and call functions to organize your code.
 
 
@@ -99,11 +99,11 @@ int add(int a, int b) {
 
 int result = add(3, 5);
 printf("Result: %d\n", result);
-####Scope and Lifetime:
+#### Scope and Lifetime:
 Understand variable scope and lifetime (local and global variables).
 
-##Arrays and Pointers
-####Arrays:
+## Arrays and Pointers
+#### Arrays:
 Understand and work with arrays, which are collections of elements of the same data type.
 
 
@@ -111,7 +111,7 @@ C Program Code
 int numbers[5] = {1, 2, 3, 4, 5};
 printf("Third element: %d\n", numbers[2]); // Output: 3
 
-####Pointers:
+#### Pointers:
 Learn about pointers, which store memory addresses, and their use.
 
 
@@ -122,8 +122,8 @@ printf("Value of x: %d\n", *ptr); // Output: 10
 
 
 
- ##Memory Management and Dynamic Allocation
-####Dynamic Memory Allocation (malloc, free):
+ ## Memory Management and Dynamic Allocation
+#### Dynamic Memory Allocation (malloc, free):
 Allocate memory dynamically for data structures like arrays.
 
 C Program Code
@@ -132,8 +132,8 @@ int *dynamicArray = (int *)malloc(5 * sizeof(int));
 free(dynamicArray);
 
 
- ##Structures and Unions
-####Structures:
+ ## Structures and Unions
+#### Structures:
 Define and use structures to group related variables together.
 
 C Program Code
@@ -147,8 +147,8 @@ person1.age = 25;
 strcpy(person1.name, "John");
 
 
-##File Handling
-####File I/O:
+## File Handling
+#### File I/O:
 Learn how to work with files using FILE pointers and functions like fopen, fclose, fprintf, fscanf.
 
 C Program Code
@@ -157,27 +157,27 @@ fprintf(file, "Hello, File Handling!");
 fclose(file);
 
 
-##Advanced Topics (Optional)
-####Enums:
+## Advanced Topics (Optional)
+#### Enums:
 Create enumerated types to define sets of named integer constants.
 
-####Bitwise Operators:
+#### Bitwise Operators:
 Learn about bitwise operations to manipulate individual bits of variables.
 
 
-##Practice and Projects
-####Coding Exercises:
+## Practice and Projects
+#### Coding Exercises:
 Practice solving coding exercises to solidify your understanding.
 
-####Small Projects:
+#### Small Projects:
 Create small programs or projects to apply your knowledge to real-world scenarios.
 
 
 
-##Resources and Further Learning
-####Online Tutorials and Courses:
+## Resources and Further Learning
+#### Online Tutorials and Courses:
 Utilize websites, tutorials, and video courses to deepen your understanding.
 
-####Programming Communities:
+#### Programming Communities:
 Join forums and communities to ask questions and share your progress.
 
