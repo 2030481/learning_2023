@@ -1,6 +1,7 @@
-# Introduction to Programming
-## Introduction to Programming
-Understand the fundamentals of programming, which apply to virtually all languages.
+# Introduction to C Programming
+## Introduction to C Programming
+* C is a widely used programming language known for its efficiency and close-to-hardware capabilities. It's used in various applications, ranging from system programming to application development.
+
 
 ## Setting Up Your Environment
 * Install a Text Editor or IDE:*
@@ -15,7 +16,7 @@ Create a basic "Hello, World!" program to ensure your setup is working.
 
 *C Program Code*
 
-#include <stdio.h>
+| #include <stdio.h>
 
 int main() {
     printf("Hello, World!\n");
@@ -33,7 +34,7 @@ Declare variables and assign values to them.
 
 *C Program Code*
 
-int age = 25;
+| int age = 25;
 float pi = 3.14159;
 char grade = 'A';
 
@@ -54,7 +55,7 @@ Read input from the user using scanf().
 
 *C Program Code*
 
-int userInput;
+| int userInput;
 printf("Enter a number: ");
 scanf("%d", &userInput);
 printf("You entered: %d\n", userInput);
@@ -67,7 +68,7 @@ Make decisions based on conditions.
 
 *C Program Code*
 
-int x = 10;
+| int x = 10;
 if (x > 5) {
     printf("x is greater than 5\n");
 } else {
@@ -80,7 +81,7 @@ Create loops to execute code repeatedly.
 
 *C Program Code*
 
-for (int i = 1; i <= 5; i++) {
+| for (int i = 1; i <= 5; i++) {
     printf("%d ", i);
 }
 // Output: 1 2 3 4 5
@@ -100,7 +101,7 @@ while (n > 0) {
 
 *C Program Code*
 
-int add(int a, int b) {
+| int add(int a, int b) {
     return a + b;
 }
 
@@ -116,7 +117,7 @@ Understand and work with arrays, which are collections of elements of the same d
 
 *C Program Code*
 
-int numbers[5] = {1, 2, 3, 4, 5};
+| int numbers[5] = {1, 2, 3, 4, 5};
 printf("Third element: %d\n", numbers[2]); // Output: 3
 
 #### Pointers:
@@ -125,7 +126,7 @@ Learn about pointers, which store memory addresses, and their use.
 
 *C Program Code*
 
-int x = 10;
+| int x = 10;
 int *ptr = &x; // Pointer to integer
 printf("Value of x: %d\n", *ptr); // Output: 10
 
@@ -137,7 +138,7 @@ Allocate memory dynamically for data structures like arrays.
 
 *C Program Code*
 
-int *dynamicArray = (int *)malloc(5 * sizeof(int));
+| int *dynamicArray = (int *)malloc(5 * sizeof(int));
 // Use dynamicArray
 free(dynamicArray);
 
@@ -148,7 +149,7 @@ Define and use structures to group related variables together.
 
 *C Program Code*
 
-struct Person {
+| struct Person {
     char name[50];
     int age;
 };
@@ -164,7 +165,7 @@ Learn how to work with files using FILE pointers and functions like fopen, fclos
 
 *C Program Code*
 
-FILE *file = fopen("data.txt", "w");
+| FILE *file = fopen("data.txt", "w");
 fprintf(file, "Hello, File Handling!");
 fclose(file);
 
@@ -188,8 +189,8 @@ Create small programs or projects to apply your knowledge to real-world scenario
 
 ## Resources and Further Learning
 #### Online Tutorials and Courses:
-Utilize websites, tutorials, and video courses to deepen your understanding.
+>Utilize websites, tutorials, and video courses to deepen your understanding.
 
 #### Programming Communities:
-Join forums and communities to ask questions and share your progress.
+>Join forums and communities to ask questions and share your progress.
 
