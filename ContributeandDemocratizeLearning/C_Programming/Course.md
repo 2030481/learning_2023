@@ -16,12 +16,17 @@ Create a basic "Hello, World!" program to ensure your setup is working.
 
 *C Program Code*
 
-| #include <stdio.h>
+```
+ #include <stdio.h>
 
 int main() {
+
     printf("Hello, World!\n");
+
     return 0;
+    
 }
+```
 
 
 ## Variables and Data Types
