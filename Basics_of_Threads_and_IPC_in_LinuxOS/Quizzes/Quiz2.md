@@ -1,7 +1,7 @@
 ## Quiz 2 - Processes 
 
 
-```
+
 ```
 
 1.Which of the following is not an entry in the PCB??
