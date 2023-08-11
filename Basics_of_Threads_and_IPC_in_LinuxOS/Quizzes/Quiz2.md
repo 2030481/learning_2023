@@ -142,8 +142,8 @@ bash creates a shell as the child process to run a script
 
 bash runs the process in the current shell
 
-B & C
 ```
+> Answer :  Option B & C
 ```
 
 13.True or False : Parent and Child can run concurrently
@@ -152,10 +152,9 @@ False
 
 True
 
-T
-
-
 ```
+
+> Answer : True
 ```
 
 14.Which of the following functions can used to fetch the parent's and child's PIDs ??
@@ -168,10 +167,8 @@ getcpid()
 
 getppid()
 
-B & D
-
-
 ```
+> Answer :  Option B & D
 ```
 
 15.True or False : Child process will be the entry point function after the fork() is called
@@ -180,10 +177,8 @@ True
 
 False
 
- F 
-
-
 ```
+> Answer :  False
 ```
 
 16.Which command can be used to check the process running in the system??
@@ -196,10 +191,8 @@ proc
 
 lsp
 
-B 
-
-
 ```
+> Answer :  Option B
 ```
 
 17.What is the expected output of the below code?
@@ -232,8 +225,9 @@ Output is unpredictable (either Hi or Hello can be printed)
 
 First Hi will be printed and then Hello will be printed
 
-C
 ```
+> Answer :  Option C
+
 ```
 18.Which of the following can be used to run a shell script from terminal ??
 
@@ -245,9 +239,8 @@ run Script
 
 bash Script
 
-B & D
-
 ```
+> Answer :  Option B & D
 ```
 19.How many children would be created by the below code?
 
@@ -267,10 +260,8 @@ B & D
 
 Note: write the number alone.
 
-Correct answers:
-16
-
 ```
+> Answer :  16
 ```
 
 20.True or False : Processes can have shared PIDs
@@ -279,9 +270,8 @@ True
 
 False
 
-
-F
 ```
+> Answer :  False
 ```
 
 21.Which is the best time to rob a bank ??
@@ -294,14 +284,13 @@ Lunch break
 
 Midnight
 
-A
 ```
+> Answer :  Option A
 ```
 22._________________ symbol can be used to push a process to the background?
 
-Correct answers:
-&
 ```
+> Answer :  &
 ```
 23.Individual states of different processes are maintained by the Kernel in _______________________
 
@@ -312,12 +301,15 @@ Process compiled block
 process composition block
 
 Process control block
-Correct D
+
 ```
+> Answer :  Option D
+
 ```
 24.child process becomes, _______________ process, while the parent is not waiting and still running.
- zombie
+ 
 ```
+> Answer :  Zombie
 ```
 25.Process which has been terminated but has entry in the process table is ________________; Process without parent is _______________, and ________________ runs in the background 
 
@@ -329,37 +321,22 @@ daemon; zombie; orphan
 
 daemon; orphan; zombie
  
-B
-
 ```
+> Answer :  Option B
 ```
 26.A program under execution is called as __________________
-  zombie
-Correct answers:
-Process
-process
 ```
-
+> Answer :  process
 ```
 27.___________ is a system call that creates a child process by duplicating the calling/parent process
  zombie
 
-
-Correct answers:
-fork
-fork()
-fork();
-
 ```
+> Answer :fork fork() fork();
+
+
 
  ```
 28.The action taken by the kernel when one process leaves CPU and/or other process enters CPU is called as ________________________
- 
-Correct answers:
-Context Switching
-Context switching
-context switching
-Context Switch
-Context switch
-context switch
-```
+ ```
+> Answer :Context Switching Context switching context switching Context Switch Context switch context switch
