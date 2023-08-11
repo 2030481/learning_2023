@@ -21,9 +21,11 @@ Open files
 Closed files
 
 
-D
+
 
 ```
+> Answer :  Option D
+
 ```
 
 4.True or False : Program is an activity entity and process is a passive entity 
@@ -32,10 +34,9 @@ True
 
 False
 
-
-F
-
 ```
+> Answer :  Option F
+
 ```
 
 5.Which option can be used with pstree command to display the PPIDs ??
@@ -49,9 +50,11 @@ F
 -pg
 
 
-D
+
 
 ```
+> Answer :  Option D
+
 ```
 
 6.Context saving is done in ____________
@@ -64,9 +67,9 @@ CACHE AREA
 
 TEMP AREA
 
-B
-
 ```
+> Answer :  Option B
+
 ```
 
 7.True or False : Each process must have a PID and PPID 
@@ -75,9 +78,9 @@ True
 
 False
 
-T
-
 ```
+> Answer :  Option True
+
 ```
 
 8.fork() returns _________________ on SUCCESS to the parent 
@@ -90,30 +93,25 @@ Child's PID
 
 Parent's PID
 
-B
-
 ```
+> Answer :  Option B
+
 ```
 
 9._______________ library call always appends error message based on return value of system call.
 
-Correct answers:
-perror
-
 ```
+> Answer :  perror
+
 ```
 
 10.__________________ system calls allow parent node to wait for the child??
 
 
-
-Correct answers:
-wait
-wait()
-waitpid
-waitpid()
-
 ```
+> Answer : wait    wait()    waitpid    waitpid()
+
+
 ```
 
 11.Which is the correct representation of process life cycle of a process which requires no inputs in Linux ??
@@ -126,9 +124,12 @@ Ready -> SCHEDULED -> Running -> COMPLETING -> Terminated
 
 Ready -> SCHEDULED -> Running -> BLOCKING -> Blocked -> UNBLOCKING -> COMPLETING -> Terminated
 
-C
+
 
 ```
+
+> Answer :  Option C
+
 ```
 
 12.What is the major difference between using bash and ./ for running shell scripts ??
