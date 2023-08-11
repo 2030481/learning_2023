@@ -26,7 +26,8 @@ Signal and Signal Handling
 ```
 ## Milestone 3: Threads and Synchronization
 ```
-In this self learning milestone focus is to understand Thread Mangament in Linux operating system using pthread libray call and the issue faced in multithreading / multiprocessing applications and its solution 
+In this self learning milestone focus is to understand Thread Mangament in Linux operating system
+using pthread libray call and the issue faced in multithreading / multiprocessing applications and its solution 
 
 Milestone-3 Outcome: To understand
 
