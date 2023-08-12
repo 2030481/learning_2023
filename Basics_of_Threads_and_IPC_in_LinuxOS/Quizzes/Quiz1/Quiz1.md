@@ -4,7 +4,9 @@
 
 #### 2.Mail ID 
 
-#### 3.User applications can access hardware through _________________
+#### 3. 
+```
+User applications can access hardware through _________________
 (1 Point)
 
 system call interface
@@ -14,10 +16,12 @@ process call interface
 Application call Interface
 
 None of the above
+```
+> Answer A
 
-Answer A
-
-#### 4.Which of the following is not a type of Cache ??
+#### 4. 
+```
+Which of the following is not a type of Cache ??
 (1 Point)
 
 Instruction cache
@@ -27,15 +31,17 @@ Data cache
 Input cache
 
 None of the above
+```
+> Answer C
 
-Answer C
-
-#### 5.In man page, section numbers _________ is for system calls and section numbers _________ is for library functions.
+#### 5.
+```
+In man page, section numbers _________ is for system calls and section numbers _________ is for library functions.
 
 Note: write your answer with a single space between both the numbers.
 (1 Point)
-
- Answer 2 3
+```
+ > Answer 2 3
 
 #### 6  1 
 
@@ -60,9 +66,10 @@ Note: write the only result alone
 (1 Point)
 
 
-Answer Seg fault / runtime error
+> Answer Seg fault / runtime error
 
 #### 7
+
 ```c
   1 #include <stdio.h>
   2 #include <string.h>
@@ -97,9 +104,10 @@ Observe the above code and identify the identify the file descriptors used to re
 Note mention both the names with one single space.
 (1 Point)
 
-Answer 0 2
+> Answer 0 2
 
 #### 8.
+```
 System call returns values _______________ on SUCCESS and __________________ on FAILURE
 (1 Point)
 
@@ -110,21 +118,23 @@ equal to 0; less than/greater than 0
 equal to/greater than 0; less than 0
 
 equal to 0; NULL 
-
-Answer C
+```
+> Answer C
 
 #### 9.
+```
 True or False : Kernel is a system software that takes care of scheduling of process and takes care of interaction between user and hardware
 (1 Point)
 
 True
 
 False
+```
 
-
-Answer A
+> Answer True
 
 #### 10.
+```
 "fd" stands for __________________ w.r.t. System calls ??
 (1 Point)
 
@@ -135,10 +145,11 @@ file derivator
 file disk
 
 file descriptor
-
-Answer D
+```
+> Answer D
 
 #### 11.
+```
 Command to list all error codes available is ________________________
 (1 Point)
 
@@ -149,16 +160,18 @@ errc
 errcode
 
 errn
-
-Answer A
+```
+> Answer A
 
 #### 12.
+```
 _______________ command is used to print Linux system information.
 (1 Point)
 uname
 
-
+```
 #### 13.
+```
 Which of the components is not required for a PC to boot ??
 (1 Point)
 
@@ -170,10 +183,11 @@ Root File System
 
 All of the above
 
-
-Answer D
+```
+> Answer D
 
 #### 14.
+```
 Which of the following is not correct w.r.t System calls ??
 (1 Point)
 
@@ -186,16 +200,19 @@ System calls cause mode transitions
 System calls can share same ID numbers
 
 System calls can be requested user space
-
-Answer B & D
+```
+> Answer B & D
 
 #### 15.
+```
 __________________ command is used to provide the modified .bashrc file info to current running instance of the bash?
 (1 Point)
-Answer source
+```
+> Answer source
 
 
 #### 16.
+```
 How does the return and exit differ
 (1 Point)
 
@@ -206,10 +223,11 @@ exits terminates the process no matter where it is written, but return terminate
 return terminates the process no matter it is written, but exit terminates only if it is written in main
 
 All of the above
-
-Answer B
+```
+> Answer B
 
 #### 17.
+```
 Error no. "1" represents ??
 (1 Point)
 
@@ -220,10 +238,11 @@ Operation not permitted
 Argument list too long
 
 No space left on device
-
-Answer B
+```
+> Answer B
 
 #### 18.
+```
 Hardware Interrupts are ____________ and Software interrupts are _______________________
 (1 Point)
 
@@ -235,10 +254,11 @@ synchronous, asynchronous
 
 asynchronous, asynchronous
 
-
-Answer B
+```
+> Answer B
 
 #### 19.
+```
 Which of the following is the correct sequence in which the Interrupts are processed ??
 (1 Point)
 
@@ -249,11 +269,11 @@ Interrupt Source -> Interrupt Controller -> CPU -> Interrupt Vector -> Interrupt
 Interrupt Source -> Interrupt Vector -> Interrupt Service Request -> Interrupt Controller -> CPU 
 
 Interrupt Source -> Interrupt Controller ->Interrupt Vector -> -> CPU-> Interrupt Service Request
-
-
-Answer B
+```
+> Answer B
 
 #### 20.
+```
 Which of the following is the default license for GNU linux ??
 (1 Point)
 
@@ -264,10 +284,11 @@ MIT
 Apache
 
 GPL
-
-Answer D
+```
+> Answer D
 
 #### 21.
+```
 Which of the following is not a type of Operating System ??
 (1 Point)
 
@@ -282,10 +303,11 @@ Network Operating System
 Real Time Operating System
 
 None of the above
-
-Answer None of these
+```
+> Answer None of these
 
 #### 22.
+```
 Ubuntu desktops are based on ??
 (1 Point)
 
@@ -298,10 +320,11 @@ LXDE
 GNOME
 
 XFCE
-
-Answer D
+```
+> Answer D
 
 #### 23.
+```
 Which of the following is not a functionality provided by an Operating System ??
 (1 Point)
 
@@ -316,23 +339,23 @@ Memory Management
 I/O Management
 
 None of the above
-
-Answer None Of These
+```
+> Answer None Of These
 
 #### 24.
-
+```
 How many number of lines would the below command print
 dmesg | head -10 | tail -2
 
 Note: Just write the number as answer 
 (1 Point)
-
-Answer 2
+```
+> Answer 2
 
 
 
 #### 25.
-
+```
 Which instruction helps in transitioning from user mode to kernel mode ??
 (1 Point)
 
@@ -343,11 +366,11 @@ KERNEL instruction
 BOOT instruction
 
 TRAP instruction
-
-Answer D
+```
+> Answer D
 
 #### 26.
-
+```
 Which command can be used to check the contents of the root file system in linux ??
 (1 Point)
 
@@ -359,11 +382,12 @@ ls /home/user
 
 ls ~
 
-
-Answer A
+```
+> Answer A
 
 #### 27.
-
+```
 Considering the intel architecture, the ________________ bit decides if the control is in user space of kernel space.
 (1 Point)
-Answer  [ Mode , mode , Mode bit , mode bit ]
+```
+> Answer  [ Mode , mode , Mode bit , mode bit ]
