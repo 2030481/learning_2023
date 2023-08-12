@@ -43,21 +43,21 @@ Note: write your answer with a single space between both the numbers.
 ```
  > Answer 2 3
 
-#### 6  1 
+#### 6  
 
 ```c
-#include <stdio.h>             
-  2
-  3 int main() {
-  4     static int x, y;
-  5
-  6     scanf("%d", x); // Assume I scan 10
-  7     scanf("%d", y); // Assume I scan 11
-  8
-  9     printf("%d\n", x - y);
- 10
- 11     return 0;
- 12 }
+ #include <stdio.h>             
+  
+   int main() {
+       static int x, y;
+  
+      scanf("%d", x); // Assume I scan 10
+      scanf("%d", y); // Assume I scan 11
+  
+       printf("%d\n", x - y);
+ 
+      return 0;
+  }
  ```
 
 What would be the output of the above program.
@@ -71,33 +71,33 @@ Note: write the only result alone
 #### 7
 
 ```c
-  1 #include <stdio.h>
-  2 #include <string.h>
-  3 #include <unistd.h>
-  4 #include <errno.h>
-  5
-  6 #define SIZE        15
-  7
-  8 int main() {
-  9     int fd, nbytes;
- 10     char str[SIZE];
- 11
- 12     nbytes = read(0, str, SIZE);
- 13
- 14     if (nbytes < 0) {
- 15         perror("read");
- 16         return errno;
- 17     }
- 18
- 19     nbytes = write(2, str, SIZE);
- 20
- 21     if (nbytes < 0) {
- 22         perror("write");
- 23         return errno;                                                                                                                            
- 24     }
- 25
- 26     return 0;
- 27 }
+   #include <stdio.h>
+   #include <string.h>
+   #include <unistd.h>
+   #include <errno.h>
+  
+   #define SIZE        15
+  
+   int main() {
+       int fd, nbytes;
+      char str[SIZE];
+ 
+      nbytes = read(0, str, SIZE);
+ 
+      if (nbytes < 0) {
+          perror("read");
+          return errno;
+      }
+ 
+      nbytes = write(2, str, SIZE);
+ 
+      if (nbytes < 0) {
+          perror("write");
+          return errno;                                                                                                                            
+      }
+ 
+      return 0;
+  }
 ```
 Observe the above code and identify the identify the file descriptors used to read and write system calls.
 
