@@ -183,14 +183,7 @@ Answer- B , D & E
 
 
 
-Correct answers:
-exec
-execvp
-execv
-execlp
-execl
-execle
-execvpe
+>Correct answers: exec execvp execv execlp execl execle execvpe
 
 
 
@@ -200,7 +193,7 @@ True
 
 False
 
-Answer- TRUE
+> Answer- TRUE
 
 # 17.Command to stop a process is ________________
 
@@ -212,7 +205,7 @@ ctrl + s
 
 ctrl + x
 
-Answer- A
+> Answer- A
 
 # 18.
 ```c
@@ -254,7 +247,7 @@ It will print only A since it gets registered first
 
 It will print only S since it gets registered last
 
-Answer- A
+> Answer- A
 
 # 19. Feature that provides concurrency within the same process is called as _____________________
 
@@ -266,7 +259,7 @@ threads
 
 signals
 
-Answer- C
+> Answer- C
 
 #  20. Command to view list all the available signals is ??
 
@@ -278,7 +271,7 @@ kill -f
 
 kill -m
 
-Answer- B
+>Answer- B
 
 #  21. Process are of ___________ entities and threads are part of ________________ entitites
 
