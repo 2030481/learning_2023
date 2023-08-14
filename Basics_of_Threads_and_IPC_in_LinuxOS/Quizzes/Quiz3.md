@@ -1,13 +1,13 @@
-```
-True or False : Threads are Heavy Weight Process as scheduling cannot be preempted
 
+# 1. True or False : Threads are Heavy Weight Process as scheduling cannot be preempted
+```
 True
 
 False
 ```
 >Answer- FALSE
 
-4. What is the output of the below code?
+# 2. What is the output of the below code?
 ```c
   1 #include <stdio.h>
   2 #include <stdlib.h>
@@ -36,7 +36,7 @@ Print "In Signal Handler" infinitely only after the command "kill -SIGTERM <PID>
 ```
 > Answer- A
 
-5. Command to view the threads running in the system
+# 5. Command to view the threads running in the system
 ```
 ps -Lt
 
@@ -48,7 +48,7 @@ ps -eLx
 ```
 > Answer- C
 
-6. What is the output of the below code??
+# 6. What is the output of the below code??
 ```c
   1 #include <signal.h>
   2 #include <stdio.h>
@@ -89,7 +89,7 @@ Compiler error
 ``` 
 > Answer- A
 
-7. What does the line "signal(SIGUSR1, SIG_IGN);" mean ??
+# 7. What does the line "signal(SIGUSR1, SIG_IGN);" mean ??
 ```
 Compiler error
 
@@ -101,7 +101,7 @@ SIGUSR1 will be registered and a callback function named SIG_IGN will be called 
 ```
 > Answer- B
 
-8. Which of the following signals cannot be caught or ignored ??
+# 8. Which of the following signals cannot be caught or ignored ??
 ```
 SIGTERM
 
@@ -113,7 +113,7 @@ SIGSTOP
 ```
 > Answer- C & D
 
-9. Command to terminate a process is _______________
+# 9. Command to terminate a process is _______________
 ```
 ctrl + z
 ctrl + x
@@ -122,7 +122,7 @@ ctrl + c
 ```
 > Answer- D
 
-10. True or False : Threads created from process have unique PIDs
+# 10. True or False : Threads created from process have unique PIDs
 ```
 True
 
@@ -130,7 +130,7 @@ False
 ```
 > Answer- TRUE
 
-11._______________ command can be used to terminate a process with PID and _____________ with process name??
+# 11._______________ command can be used to terminate a process with PID and _____________ with process name??
 
 Note: write both commands with single space in between.
 
@@ -140,7 +140,7 @@ kill pkill
 kill, pkill
 kill and pkill
 
-12.Library required to be linked for POSIX interfaces is 
+# 12.Library required to be linked for POSIX interfaces is 
 
 lposix
 
@@ -152,7 +152,7 @@ All of the above can be used
 
 Answer- C
 
-13.Which of the below system calls can be used to make the main thread wait for the sub-threads ??
+# 13.Which of the below system calls can be used to make the main thread wait for the sub-threads ??
 
 pthread_create()
 
@@ -165,7 +165,7 @@ pthread_stop()
 Answer- C
 
 
-14.While working with multithreading, which are the section common to the thread?
+# 14.While working with multithreading, which are the section common to the thread?
 
 Registers
 
@@ -179,7 +179,7 @@ Files
 
 Answer- B , D & E
 
-15._____________ library function would allocate new resources after creating a child process?
+# 15._____________ library function would allocate new resources after creating a child process?
 
 
 
@@ -194,7 +194,7 @@ execvpe
 
 
 
-16.True or False : Signals do not have a interrupt vector table
+# 16.True or False : Signals do not have a interrupt vector table
 
 True
 
@@ -202,7 +202,7 @@ False
 
 Answer- TRUE
 
-17.Command to stop a process is ________________
+# 17.Command to stop a process is ________________
 
 ctrl + z
 
@@ -214,7 +214,9 @@ ctrl + x
 
 Answer- A
 
-18.  1 #include <stdio.h>
+# 18.
+```c
+  1 #include <stdio.h>
   2 #include <pthread.h>
   3 #include <unistd.h>
   4
@@ -241,7 +243,7 @@ Answer- A
  25
  26         return 0;
  27 }
-
+```
 This code will print A and S concurrently
 
 Runtime error since same handler cannot be used while registering threads
@@ -254,7 +256,7 @@ It will print only S since it gets registered last
 
 Answer- A
 
-19.Feature that provides concurrency within the same process is called as _____________________
+# 19. Feature that provides concurrency within the same process is called as _____________________
 
 subprocess
 
@@ -266,7 +268,7 @@ signals
 
 Answer- C
 
-20.Command to view list all the available signals is ??
+#  20. Command to view list all the available signals is ??
 
 kill -a
 
@@ -278,7 +280,7 @@ kill -m
 
 Answer- B
 
-21.Process are of ___________ entities and threads are part of ________________ entitites
+#  21. Process are of ___________ entities and threads are part of ________________ entitites
 
 different; different
 
@@ -288,10 +290,10 @@ different; same
 
 same; different
 
-Answer- C
+> Answer- C
 
-22.What is the output of the below code??
-
+#  22. What is the output of the below code??
+```c
   1 #include <stdio.h>
   2 #include <pthread.h>
   3 #include <unistd.h>
@@ -316,7 +318,7 @@ Answer- C
  22     }
  23     return 0;
  24 }
-
+```
 Only - will be printed infinitely until buffer is full
 
 Only | will be printed infinitely until buffer is full
@@ -325,9 +327,9 @@ Only | will be printed infinitely until buffer is full
 
 | and - will be printed asynchronously and infinitely
 
-Answer- A
+> Answer- A
 
-23.Which of the below commands will continue a stopped process ??
+# 23.Which of the below commands will continue a stopped process ??
 
 kill -SIGCONT <PID>
 
@@ -339,7 +341,7 @@ kill -24 <PID>
 
 > Answer- A & C
 
-24. What is the output of the below code??
+#  24. What is the output of the below code??
 ```c
   1 #include<unistd.h>
   2 #include<signal.h>
@@ -363,10 +365,8 @@ Linker error as function definitions are not present
 ```
 > Answer- B
 
-25.
+# 25. Linux supports which of the below threading model
 ```
-Linux supports which of the below threading model
-
 One to Many
 Many to One
 One to One
@@ -374,7 +374,7 @@ Many to Many
 ```
 > Answer- C
 
-26. What will be the output of the following code?
+#  26. What will be the output of the following code?
 
 ```c
   1 #include <stdio.h>
@@ -419,7 +419,7 @@ Both will not be printed
 ```
 > Answer- C
 
-27. 
+# 27. 
 ```c
  1 #include <unistd.h>
   2 #include <stdio.h>
